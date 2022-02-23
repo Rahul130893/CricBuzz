@@ -131,7 +131,20 @@ function navbar(){
 
     <div>
       <span class="material-icons-outlined"> search </span>
-      <span class="material-icons-outlined"> account_circle </span>
+      
+      <div class="livedrpdwn DisplaySignout">
+      <div>
+        <div id="AccountIcon" class="live"><span class="material-icons-outlined"> account_circle </span></div>
+       
+      </div>
+      <div class="dropdown series signout">
+        
+        <p>My Account</p>
+        <p>Sign Out</p>
+       
+       
+      </div>
+    </div>
     </div>
   </div>`
 }

@@ -37,8 +37,16 @@ body {
    
     padding: 12px;
     padding-left: 2px;
+    width:50px;
+    display: flex;
     
   }
+  #navbar > div:nth-child(12):hover{
+    background-color: teal;
+    cursor: pointer;
+
+  }
+
 
   img {
     width: 100px;
@@ -121,6 +129,9 @@ body {
   }
   .series {
     min-width: 270px;
+  }
+  .signout{
+    min-width:100px;
   }
 
   .livedrpdwn > div:nth-child(1) {

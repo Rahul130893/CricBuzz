@@ -43,4 +43,11 @@
   var mainfooter=document.getElementById("mainFooter");
   mainfooter.innerHTML=footer()
 
+  let accIcon=document.getElementById("AccountIcon")
+  accIcon.addEventListener("click", gotologinPage)
+     function gotologinPage() {
+       window.location.href="login.html"
+     }
+
+
 </script>
