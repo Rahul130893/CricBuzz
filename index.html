@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+  </head>
+ 
+  <body>
+
+     
+ <!-- header -->
+    <div id="Nav"></div>
+    <!-- header ends -->
+
+ <!-- main body -->
+    <div id="body">
+
+    </div>
+    <!-- body ends -->
+    
+
+   <!-- footer -->
+    <div id="mainFooter"></div>
+    <!-- footer ends -->
+  </body>
+</html>
+<script type="module">
+
+  import navbar from './components/navbar.js';
+
+  import footer from './components/footer.js';
+
+  var navDiv=document.getElementById("Nav")
+  navDiv.innerHTML= navbar()
+
+  var mainfooter=document.getElementById("mainFooter");
+  mainfooter.innerHTML=footer()
+
+</script>

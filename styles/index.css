@@ -1,0 +1,134 @@
+body {
+    background-color: #e3e6e3;
+    padding: 0;
+    margin: 0;
+  }
+  #navbar {
+    width: 1100px;
+    height: 50px;
+    margin: auto;
+    margin-top: 100px;
+ 
+    background-color: teal;
+    display: flex;
+    justify-content: space-between;
+    gap:9px;
+    color: white;
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: helvetica, "Segoe UI", Arial, sans-serif;
+  }
+  #navbar > div {
+    padding-top: 18px;
+  }
+
+  #navbar > div:hover {
+    background-color: rgb(6, 150, 150);
+  }
+     
+  #navbar > div:nth-child(1) {
+    padding-top: 5px;
+    margin-bottom: 8px;
+  }
+  #navbar > div:nth-child(1):hover {
+    background-color: teal;
+  }
+  #navbar > div:nth-child(12) {
+   
+    padding: 12px;
+    padding-left: 2px;
+    
+  }
+
+  img {
+    width: 100px;
+    height: 100%;
+  }
+  #plusBtn {
+    height: 35px;
+    width: 120px;
+    padding: 0;
+    margin-top: 7px;
+    border-radius: 30px;
+    border: none;
+  }
+  #footerMain {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(87, 85, 85);
+    color: white;
+    font-family: helvetica, "Segoe UI", Arial, sans-serif;
+  }
+  #upperfooter {
+    display: flex;
+    border-bottom: 1px solid black;
+    height: 85%;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  #upperleft {
+    flex: 1;
+    /* border: 1px solid red; */
+    height: 60px;
+  }
+  #upperleft > img {
+    margin-left: 240px;
+  }
+  #upperright {
+    flex: 3;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: left;
+    gap: 150px;
+    margin-left: 30px;
+    line-height: 27px;
+  }
+
+  #lowerfooter {
+    text-align: center;
+    font-size: 12px;
+  }
+  .live {
+    cursor: pointer;
+    display: inline;
+  }
+  .livedrpdwn {
+    position: relative;
+    display: inline;
+  }
+
+  .dropdown p:hover {
+    color: rgb(138, 126, 126);
+    cursor: pointer;
+  }
+  .dropdown {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    min-width: 110px;
+    padding: 10px;
+    z-index: 1;
+  }
+  .livedrpdwn:hover .dropdown {
+    display: block;
+  }
+
+  .livedrpdwn:hover .live {
+    background-color: transparent;
+  }
+  .dropdown > p {
+    color: black;
+  }
+  .series {
+    min-width: 270px;
+  }
+
+  .livedrpdwn > div:nth-child(1) {
+    display: flex;
+  }
+
+  #first_col {
+    display: flex;
+    color: black;
+    justify-content: space-around;
+  }
