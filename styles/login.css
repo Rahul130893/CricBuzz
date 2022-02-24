@@ -1,0 +1,136 @@
+body {
+    background-color: #e3e6e3;
+    padding: 0;
+    margin: 0;
+  }
+    #container{
+        width:70%;
+   
+        margin: auto;
+        height:700px;
+        margin-top: 80px;
+     
+
+    }
+    #header{
+        width:100%;
+        border:1px solid red;
+        margin:auto;
+        background-color: teal;
+        height:50px;
+
+    }
+
+    #cblogo{
+        width:20%;
+        height:100%;
+      padding-top: 2px;
+    
+
+    }
+    #cblogo>img{
+       
+        width:90%;
+        height:90%;
+    }
+    #content{
+        width:100%;
+       
+        height:100%;
+        margin-top: 5px;
+        background-color: white;
+        font-size: 14px;
+        font-family: helvetica, "Segoe UI", Arial, sans-serif;
+    }
+        #logo{
+        width:100%;
+        border-bottom:1px solid red;
+        margin:auto;
+        height:50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #logo>div{
+    
+        width:20%;
+        height:100%;
+        display: flex;
+        padding-left: 10px;
+        padding-top: 2px;
+
+    }
+    .IcnAdjust{
+        margin-top: 10px;
+    }
+    #ac{
+        font-weight: 700;
+    }
+    #rightpart{
+        
+        padding-left: 10px;
+    }
+    #rightpart>img{
+        margin-left: 50px;
+        height: 90%;
+        width:90%;
+    }
+    #mainContent >*{
+        text-align: center;
+        margin:auto;
+        color: black;
+    }
+  
+    #mainContent>div{
+        border:1px solid red;
+        width:50%;
+        margin-top: 90px;
+        height:400px;
+        line-height: 20px;
+    }
+   #mail{
+       display: flex;
+       border-bottom:1px solid black;
+       width:70%;
+       margin: auto;
+       margin-top: 40px;
+       
+   }
+   #mail>input{
+       width:90%;
+       border:none;
+       padding-left: 10px;
+       outline: none;
+   }
+   #confrm{
+       display: flex;
+       border: 1px solid red;
+       margin: auto;
+       margin-top: 40px;
+       width: 80%;
+       padding-left: 20px;
+
+   }
+   #confrm>input{
+       margin-top: 15px;
+       width:17px;
+       height: 17px;
+       background-color: white;
+      
+   }
+   .color{
+       color:blue;
+       margin-left: 5px;
+   }
+   .rest{
+       margin-left: 5px;
+   }
+   #continue{
+       margin-top: 50px;
+       width:50%;
+       height: 35px;
+       color: white;
+       background-color: teal;
+      
+       border: none;
+       cursor: pointer;
+   }

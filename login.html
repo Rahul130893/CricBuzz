@@ -5,8 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles/login.css">
+    <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    rel="stylesheet"
+  />
 </head>
+
 <body>
+    <div id="container">
+        <div id="header">
+            <div id="cblogo">
+                <img src="/images/cb_logo.svg" alt="" />
+            </div>
+        </div>
+        <div id="content">
+            <div id="logo">
+                <div id="leftpart">
+                    <p>Home</p>
+                    <span class="material-icons-outlined IcnAdjust">
+                        chevron_right
+                        </span>
+                    <p id="ac">Accounts</p>
+                </div>
+                <div id="rightpart">
+                    <img src="/images/cb_logo_plus_color.svg" alt="">
+                </div>
+            </div>
+            <div id="mainContent">
+                <div>
+                    <h1>Login / Sign Up</h1>
+                    <p>We will send OTP to your email id</p>
+                    <div id="mail">
+                        <span class="material-icons-outlined">
+                            email
+                            </span>
+                            <input  type="email" id="email" placeholder="Enter your Email">
+                        
+                    </div>
+                    <div id="confrm">
+                        <input type="checkbox">
+                        <p> I agree with the <p class="color">Terms of Use</p> <p class="rest">the</p> <p class="color">Privacy Policy</p> <p class="rest">of Cricbuzz</p>
+                    </div>
+
+                    <button onclick="getOtp()" id="continue">Continue</button>
+                    <div id="none"></div>
+
+                </div>
+
+              
+            </div>    
+
+        </div>
+       
+    </div>
     
 </body>
 </html>
+<script src="./scripts/login.js">
+
+</script>
