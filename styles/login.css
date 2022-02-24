@@ -14,7 +14,6 @@ body {
     }
     #header{
         width:100%;
-        border:1px solid red;
         margin:auto;
         background-color: teal;
         height:50px;
@@ -27,6 +26,8 @@ body {
       padding-top: 2px;
     
 
+    } #cbImage{
+        cursor: pointer;
     }
     #cblogo>img{
        
@@ -44,7 +45,7 @@ body {
     }
         #logo{
         width:100%;
-        border-bottom:1px solid red;
+        border-bottom:1px solid rgb(205, 240, 240);
         margin:auto;
         height:50px;
         display: flex;
@@ -81,7 +82,7 @@ body {
     }
   
     #mainContent>div{
-        border:1px solid red;
+       
         width:50%;
         margin-top: 90px;
         height:400px;
@@ -103,7 +104,7 @@ body {
    }
    #confrm{
        display: flex;
-       border: 1px solid red;
+      
        margin: auto;
        margin-top: 40px;
        width: 80%;
