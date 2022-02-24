@@ -7,3 +7,8 @@ function clickEvent(first, last){
 let email=localStorage.getItem("Email-for-otp")
 let returned = document.getElementById("email-on-otp");
 returned.innerText=`OTP sent to ${email}`
+
+
+function gotoPlans(){
+    window.location.href="plans.html"
+}

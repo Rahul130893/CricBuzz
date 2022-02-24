@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+    background-color: #e3e6e3;
+    padding: 0;
+    margin: 0;
+  }
+    #container{
+        width:70%;
+        height:1400px;
+        border:1px solid red;
+        margin:auto;
+        margin-top:30px;
+        font-family: helvetica, "Segoe UI", Arial, sans-serif;
+      
+    }
+    #header{
+        width:100%;
+        margin:auto;
+        background-color: teal;
+        height:50px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    #cblogo{
+        width:20%;
+        height:90%;
+      padding-top: 4px;
+    
+
+    } #cbImage{
+        cursor: pointer;
+    }
+    #cblogo>img{
+       
+        width:90%;
+        height:90%;
+    }
+    #header>button{
+       margin-right:30px;
+       margin-top:10px;
+       border-radius: 30px;
+       width:150px;
+       height:30px;
+       background-color: white;
+       border:none;
+       font-size:14px;
+     
+    }
+    #comboPlan{
+        margin-top:5px;
+        width:100%;
+        border:1px solid black;
+        height:500px;
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(90, 211, 175);
+        color:white;
+    }
+    #comboPlan>div{
+        margin-top:50px;
+      
+        width:45%;
+        height:70%;
+    }
+
+    #imgDiv>img{
+      width:100%;
+      height:100%;
+    }
+    #oneyear{
+        line-height: 40px;
+        color:white;
+    }
+    #one{
+        font-size:40px;
+    }
+    #oneyear button{
+        height:30px;
+        width:180px;
+        border-radius: 30px;
+    
+       margin-right: 20px;
+    }
+    #btn2{
+        background-color: rgb(90, 211, 175);
+        border:1px solid white;
+    }
+    #btn1{
+        border: none;
+    }
+
+    #PlusBenefits{
+        background-color: white;
+        width:100%;
+        height:500px;
+        margin-top: 7px;
+        
+    }
+    #PlusBenefits>div{
+        border:1px solid red;
+        text-align: center;
+        line-height: 10px;
+    }
+   
+
+</style>
+<body>
+    <div id="container">
+       <div id="header">
+        <div id="cblogo">
+            <img id="cbImage" onclick="gotoHome()" src="/images/cb_logo.svg" alt="" />
+        </div>
+        <button>View All Plans</button>
+       </div>
+       <div id="comboPlan">
+           <div id="oneyear">
+               <h1>Save INR 4000+ with 1 Combo plan!</h1>
+               <p>Cricbuzz Plus + Times Prime</p>
+               <h1 id="one">1 Year Combo Plan</h1>
+               <div>
+                   <button id="btn1">Unlock now for INR 999</button>
+                   <button id="btn2">Learn more</button>
+               </div>
+               <p>By continuing you agree to cancellation & Refund Policy</p>
+           </div>
+           <div id="imgDiv">
+               <img src="https://www.cricbuzz.com/a/img/v1/401x301/i1/c226020/hero_plan.jpg" alt="">
+           </div>
+       </div>
+       <div id="PlusBenefits">
+           <div id="benefits">
+               <h3>Cricbuzz Plus Benefits</h3>
+               <p>Unlock Cricbuzz Plus to enjoy these benefits on website and mobile app.</p>
+           </div>
+           <div></div>
+       </div>
+       <div id="selectChoice"></div>
+
+    </div>
+    
+</body>
+</html>

@@ -143,3 +143,116 @@ body {
     color: black;
     justify-content: space-around;
   }
+  #matches{
+    display:flex;
+    justify-content: left;
+    gap:10px;
+    width:1109px;
+    height:45px;
+    margin: auto;
+
+    background-color: gray;
+    color: white;
+   
+    font-size: 14px;
+    font-family: helvetica, "Segoe UI", Arial, sans-serif;
+
+    
+  }
+  #matches>div{
+ 
+    padding-top: 13px;
+    width:160px;
+    text-align: center;
+  }
+  #matches>div:hover{
+    background-color: rgb(97, 95, 95);
+  }
+  #details{
+    width:1110px;
+    margin:auto;
+    margin-top:5px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 200px);
+    grid-gap:5px;
+    grid-template-areas: 
+    "a a a a a a a a a a a a"
+    "b b b c c c c c d d d d"
+    "b b b c c c c c d d d d"
+    "b b b c c c c c d d d d"
+    "b b b c c c c c d d d d"
+    "b b b c c c c c d d d d"
+    "b b b c c c c c d d d d"
+    "b b b c c c c c d d d d"
+    "b b b c c c c c d d d d"
+    "e e e c c c c c d d d d"
+    "e e e c c c c c d d d d"
+    "e e e c c c c c d d d d"
+    "e e e c c c c c d d d d"
+    "e e e c c c c c d d d d";
+  }
+  #details>div{
+    background-color: white;
+   
+  }
+  #details>div:nth-child(1){
+    grid-area:a;
+  }
+  #details>div:nth-child(2){
+    grid-area: b;
+  }
+  #details>div:nth-child(3){
+    grid-area: c;
+  }
+  #details>div:nth-child(4){
+    grid-area: d;
+  }
+  #details>div:nth-child(5){
+    grid-area: e;
+  }
+ 
+  #featured{
+    padding-left:20px ;
+    
+    width:100%;
+
+    height:50px;
+    font-family: helvetica, "Segoe UI", Arial, sans-serif;  
+    
+  }
+
+#fourpart{
+  display:flex ;
+  justify-content: space-between;
+  gap:10px;
+  height:80px;
+  padding:20px;
+}
+#fourpart>div{
+  border-right:1px solid green;
+  width:25%;
+  height:100%;
+}
+.runs{
+  width:60%;
+  display: flex;
+  justify-content: space-between;
+  font-family: helvetica, "Segoe UI", Arial, sans-serif;  
+  height:20px;
+  margin-top: 5px;
+  vertical-align: top;
+}
+.runs>p{
+ font-size: 14px;
+ margin-top: 10px;
+
+
+}
+.results{
+  color:blue;
+}
+.red{
+  color:red;
+}
