@@ -1,0 +1,108 @@
+body {
+    background-color: #e3e6e3;
+    padding: 0;
+    margin: 0;
+  }
+    #container{
+        width:70%;
+   
+        margin: auto;
+        height:650px;
+        margin-top: 80px;
+     
+
+    }
+    #header{
+        width:100%;
+        margin:auto;
+        background-color: teal;
+        height:50px;
+
+    }
+
+    #cblogo{
+        width:20%;
+        height:100%;
+      padding-top: 2px;
+    
+
+    } #cbImage{
+        cursor: pointer;
+    }
+    #cblogo>img{
+       
+        width:90%;
+        height:90%;
+    }
+    #content{
+        width:100%;
+       
+        height:100%;
+        margin-top: 5px;
+        background-color: white;
+        font-size: 14px;
+        font-family: helvetica, "Segoe UI", Arial, sans-serif;
+    }
+        #logo{
+        width:100%;
+        border-bottom:1px solid rgb(205, 240, 240);
+        margin:auto;
+        height:50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #logo>div{
+    
+        width:20%;
+        height:100%;
+        display: flex;
+        padding-left: 10px;
+        padding-top: 2px;
+
+    }
+    .IcnAdjust{
+        margin-top: 10px;
+    }
+    #ac{
+        font-weight: 700;
+    }
+    #rightpart{
+        
+        padding-left: 10px;
+    }
+    #rightpart>img{
+        margin-left: 50px;
+        height: 90%;
+        width:90%;
+    }
+    #mainContent{
+      
+        width:300px;
+        text-align: center;
+        margin: auto;
+        margin-top:50px;
+    }
+
+    #userInput{
+        display: flex;
+        justify-content: center;
+    }
+    input{
+        margin:7px;
+        height:30px;
+        width:30px;
+        text-align: center;
+         border:1.6px solid rgb(105, 103, 103);
+
+    }
+    #otp-submitbtn{
+        width:90%;
+        height:30px;
+        margin-top: 60px;
+        background-color: teal;
+        border: none;
+        cursor: pointer;
+        color: white;
+        font-size: 16px;
+        letter-spacing: 1px;
+    }

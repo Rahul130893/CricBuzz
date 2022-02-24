@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./styles/otp.css">
+    <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    rel="stylesheet"
+  />
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <div id="cblogo">
+                <img id="cbImage" onclick="gotoHome()" src="/images/cb_logo.svg" alt="" />
+            </div>
+        </div>
+        <div id="content">
+            <div id="logo">
+                <div id="leftpart">
+                    <p>Home</p>
+                    <span class="material-icons-outlined IcnAdjust">
+                        chevron_right
+                        </span>
+                    <p id="ac">Accounts</p>
+                </div>
+                <div id="rightpart">
+                    <img src="/images/cb_logo_plus_color.svg" alt="">
+                </div>
+            </div>
+            <div id="mainContent">
+                <div>
+                    <h3>Enter the 6 digit OTP</h3>
+                    <p id="email-on-otp"></p>    
+
+                </div>
+              
+                <div id="userInput">
+                    <input type="text"  maxlength="1" id="frst" onkeyup="clickEvent(this,'sec')">
+                    <input type="text"  maxlength="1" id="sec" onkeyup="clickEvent(this,'third')">
+                    <input type="text"  maxlength="1" id="third" onkeyup="clickEvent(this,'forth')">
+                    <input type="text"  maxlength="1" id="forth" onkeyup="clickEvent(this,'fifth')">
+                    <input type="text"  maxlength="1" id="fifth" onkeyup="clickEvent(this,'sixth')">
+                    <input type="text"  maxlength="1" id="sixth">
+           
+
+                </div>
+                <button id="otp-submitbtn">SUBMIT</button>
+               
+              
+            </div>  
+       
+
+        </div>
+       
+    </div>
+    
+    
+</body>
+</html>
+<script type="text/javascript" src="./scripts/otp.js">
+  
+
+</script>  

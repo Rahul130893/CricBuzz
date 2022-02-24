@@ -6,8 +6,9 @@ function getOtp(){
 
     if(inputEmail!=""){
         let otp=Math.floor(Math.random()*1000000)
-       localStorage.setItem("sent-otp", otp)
-       alert("O tp send to your Email")
+     //  localStorage.setItem("sent-otp", otp)
+       localStorage.setItem("Email-for-otp", inputEmail)
+       alert("Otp send to your Email")
        window.location.href="otp.html"
 
     }
