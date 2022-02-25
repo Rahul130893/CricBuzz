@@ -175,7 +175,7 @@ body {
     margin-bottom: 30px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(12, 200px);
+    grid-template-rows: repeat(12, 180px);
     grid-gap:5px;
     grid-template-areas: 
     "a a a a a a a a a a a a"
@@ -184,14 +184,14 @@ body {
     "b b b c c c c c d d d d"
     "b b b c c c c c d d d d"
     "b b b c c c c c d d d d"
-    "b b b c c c c c d d d d"
-    "b b b c c c c c d d d d"
-    "b b b c c c c c d d d d"
     "e e e c c c c c d d d d"
-    "e e e c c c c c d d d d"
-    "e e e c c c c c d d d d"
-    "e e e c c c c c d d d d"
-    "e e e c c c c c d d d d";
+    "e e e c c c c c f f f f"
+    "e e e c c c c c f f f f"
+    "e e e c c c c c f f f f"
+    "e e e c c c c c f f f f"
+    "e e e c c c c c f f f f"
+    "e e e c c c c c f f f f"
+    "e e e c c c c c f f f f";
   }
   #details>div{
     background-color: white;
@@ -212,6 +212,9 @@ body {
   #details>div:nth-child(5){
     grid-area: e;
   }
+  #details>div:nth-child(6){
+    grid-area: f;
+  }
  
   #featured{
     padding-left:20px ;
@@ -228,31 +231,95 @@ body {
   justify-content: space-between;
   gap:10px;
   height:80px;
-  padding:20px;
+ text-align: center;
+ font-family: helvetica, "Segoe UI", Arial, sans-serif;  
+
 }
 #fourpart>div{
   border-right:1px solid green;
   width:25%;
   height:100%;
+  
 }
-.runs{
-  width:60%;
-  display: flex;
-  justify-content: space-between;
+#fourpart>div>div{
+
+  line-height: 0;
+}
+.green{
+  color:green;
+  padding-left: 20px;
   font-family: helvetica, "Segoe UI", Arial, sans-serif;  
-  height:20px;
-  margin-top: 5px;
-  vertical-align: top;
 }
-.runs>p{
- font-size: 14px;
- margin-top: 10px;
+#news>div{
+ padding-left: 20px;
+ font-family: helvetica, "Segoe UI", Arial, sans-serif;  
+}
+#news>div>div{
+  width:60%;
+  font-size: 16px;
+  padding-left:20px;
+  margin-top: 30px;
+  line-height: 25px;
+  border-bottom: 1px solid green
+  
+}
+#images>div{
+ 
+  width:70%;
+
+  padding-left:20px;
+}
+#images>div>div{
+  border-bottom:1px solid green;
+  font-size: 16px;
+ 
+  margin-top: 30px;
+  line-height: 25px;
+}
+#imgDiv>div>img{
+  width:100%;
+  height:100px;
+  
+}
+#middle>div{
+  border-bottom:1px solid green;
+  margin-bottom: 50px;
+  line-height: 25px;
+  padding: 10px;
+  font-family: helvetica, "Segoe UI", Arial, sans-serif;  
 
 
 }
-.results{
+#middle>div>img{
+  width:100%;
+  height:280px;
+}
+#middle>div>h4{
   color:blue;
 }
-.red{
-  color:red;
+
+#video>div{
+  border-bottom:1px solid green;
+  padding: 10px;
+  font-family: helvetica, "Segoe UI", Arial, sans-serif; 
+  line-height: 25px;
+  margin-top: 10px;
+  margin-bottom: 40px; 
 }
+#video>div>img{
+  width:100%
+}
+
+#spImg>div{
+  border-bottom:1px solid green;
+  padding: 10px;
+  font-family: helvetica, "Segoe UI", Arial, sans-serif; 
+  line-height: 20px;
+  margin-top: 10px;
+  margin-bottom: 40px; 
+ 
+}
+#spImg>div>img{
+  width:100%
+}
+
