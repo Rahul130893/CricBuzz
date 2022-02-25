@@ -1,0 +1,171 @@
+body {
+    background-color: #e3e6e3;
+    padding: 0;
+    margin: 0;
+  }
+  #container {
+    width: 70%;
+    height: 1400px;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 30px;
+    font-family: helvetica, "Segoe UI", Arial, sans-serif;
+  }
+  #header {
+    width: 100%;
+    margin: auto;
+    background-color: teal;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #cblogo {
+    width: 20%;
+    height: 90%;
+    padding-top: 4px;
+  }
+  #cbImage {
+    cursor: pointer;
+  }
+  #cblogo > img {
+    width: 90%;
+    height: 90%;
+  }
+  #header > button {
+    margin-right: 30px;
+    margin-top: 10px;
+    border-radius: 30px;
+    width: 150px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    font-size: 14px;
+  }
+  #comboPlan {
+    margin-top: 5px;
+    width: 100%;
+    border: 1px solid black;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(90, 211, 175);
+    color: white;
+  }
+  #comboPlan > div {
+    margin-top: 50px;
+
+    width: 45%;
+    height: 70%;
+  }
+
+  #imgDiv > img {
+    width: 100%;
+    height: 100%;
+  }
+  #oneyear {
+    line-height: 40px;
+    color: white;
+  }
+  #one {
+    font-size: 40px;
+  }
+  #oneyear button {
+    height: 30px;
+    width: 180px;
+    border-radius: 30px;
+
+    margin-right: 20px;
+  }
+  #btn2 {
+    background-color: rgb(90, 211, 175);
+    border: 1px solid white;
+  }
+  #btn1 {
+    border: none;
+  }
+
+  #PlusBenefits {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 480px;
+    margin-top: 7px;
+  }
+  #PlusBenefits > div {
+    border: 1px solid transparent;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  #displayPlans {
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    grid-row-gap: 40px;
+    border-radius: 10px;
+  }
+  #displayPlans > div {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+
+    background-color: white;
+  }
+  #displayPlans img {
+    width: 110px;
+    height: 100%;
+    border-radius: 10px;
+  }
+  #displayPlans > div > div {
+    text-align: left;
+  }
+  .ptag {
+    font-size: 13px;
+  }
+  .abt {
+    margin-top: 15px;
+  }
+  #PlusBenefits > p {
+    text-align: center;
+  }
+  #select{
+      width:100%;
+      height:300px;
+      border:1px solid transparent;
+      text-align: center;
+      margin-top: 5px;
+      background-color: whitesmoke;
+  }
+  #selectChoice{
+      display: flex;
+      width:95%;
+      justify-content: space-between;
+   
+      margin:auto;
+
+  }
+  #selectChoice>div{
+      font-size: 12px;
+ 
+      background-color: white;
+      width:32%;
+      text-align: left;
+  }
+
+  #ratebox{
+      display: flex;
+      justify-content: space-around;
+  
+  }
+  /* #box:hover{
+      background-color: teal;
+  } */
+  #paymentbtn{
+      margin-top:30px;
+      height:30px;
+      border:none;
+      background-color: teal;
+      border-radius: 20px;
+      color: white;
+  }
