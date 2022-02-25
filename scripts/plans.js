@@ -102,11 +102,15 @@ function select(plans){
         let box=document.createElement("div")
         box.append(ratebox, desc)
         box.setAttribute("id", "box")
+       
 
         box.onclick=()=>{
             localStorage.setItem("clicked_plan", JSON.stringify(el.rate))
+         
             box.style.background="teal";
+            
         }
+      
         
 
 
@@ -115,6 +119,7 @@ function select(plans){
     })
 }
 select(plans)
+
 
 function gotopayment(){
     window.location.href="payment.html"

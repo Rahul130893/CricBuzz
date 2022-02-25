@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
+</head>
+<style>
+    body {
+    background-color: #e3e6e3;
+    padding: 0;
+    margin: 0;
+  }
+    #container{
+        display:flex;
+        width:60%;
+        height:500px;
+        margin:auto;
+        margin-top: 30px;
+        padding:20px;
+        gap:20px;
+        background-color: whitesmoke;
+        font-size: 14px;
+        font-family: helvetica, "Segoe UI", Arial, sans-serif;
+    }
+    #amount{
+        flex:2;
+      
+        padding-left:30px;
+        background-color: white;
+    }
+    #cardDetails{
+        flex:3;    
+        background-color: white;
+    }
+    #amount>div{
+        display: flex;
+      
+        width:70px;
+        cursor: pointer;
+        margin-bottom: 40px;
+    }
+    #amount span{
+        margin-top:10px;
+        margin-right: 5px;
+    }
+    #secline{
+        display: flex;
+        gap:20px;
+    }
+    #cardDetails{
+        padding:20px;
+    }
+    #cardDetails input{
+      height: 30px;
+      margin-bottom: 30px;
+    }
+    #cardDetails>button{
+       width:358px;
+        height:30px;
+        background-color: #4a90e2;
+        border:none;
+    }
+    #cardNum, #name {
+        width:350px;
+    }
+</style>
+<body>
+    <div id="container">
+        <div id="amount">
+            <div id="back" onclick="backtoplan()">
+                <span class="material-icons-outlined">
+                    keyboard_backspace
+                    </span>
+                <p>Back</p>
+            </div>
+            <h2>Enter new card</h2>
+            <h3 id="payable_amt"></h3>
+        </div>
+        <div id="cardDetails">
+            <div id="firstline">
+                <p>New Card</p>
+                <input type="number" id="cardNum" placeholder="Enter Card Number">
+            </div>
+            <div id="secline">
+                <div>
+                    <p>Expiry</p>
+                    <input type="number" id="expiry" placeholder="MM/YY">
+                </div>
+                <div>
+                    <p>CVV</p>
+                    <input type="number" id="cvv" placeholder="Enter CVV">
+                </div>
+
+            </div>
+            <div id="thirdline">
+                <p>Name on Card</p>
+                <input type="text" id="name" placeholder="Name on card">
+            </div>
+            <button onclick="done()">PROCEED</button>
+        </div>
+
+    </div>
+</body>
+</html>
+<script src="./scripts/payment.js">
+
+</script>
