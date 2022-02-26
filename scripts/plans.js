@@ -124,3 +124,7 @@ select(plans)
 function gotopayment(){
     window.location.href="payment.html"
 }
+function gotoHome(){
+  window.location.href="index.html"
+
+}
